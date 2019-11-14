@@ -3,3 +3,4 @@ def reverse_each_word(string)
    word.reverse
 end
 array.join("")
+end
