@@ -2,6 +2,7 @@ def reverse_each_word(sentence)
  # Using split to transform string into array so we can use enumerator.
  array=sentence.split
  new=[]
+ # Using collect 
  array.collect do |sentence|
    new << sentence.reverse
  end
